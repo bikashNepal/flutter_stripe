@@ -21,7 +21,11 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  stripe_android: ^3.0.0
+  stripe_android:
+    git:
+      url: https://github.com/bikashNepal/flutter_stripe.git
+      ref: v3_0_0
+      path: packages/stripe_android
   stripe_ios: ^3.0.0
   stripe_platform_interface: ^3.0.0
 dev_dependencies:
